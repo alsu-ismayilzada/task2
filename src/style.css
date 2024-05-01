@@ -1,0 +1,24 @@
+
+.common{
+    border: 1px solid black;
+    width: 300px;
+    height: 180px;
+    margin: 10px auto;
+    padding: 10px;
+    text-align: center;
+}
+p{
+  margin-top: 10px;
+  margin-bottom: 35x;
+}
+.title{
+    font-weight: 700;
+    font-size: 20px;
+}
+.description{
+    color: rgb(197, 195, 195);
+    font-style: italic;
+}
+.rating{
+    font-weight: 400;
+}

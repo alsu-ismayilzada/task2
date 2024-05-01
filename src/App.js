@@ -1,25 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import Wine from "./Wine";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default function App() {
+  return <div><Wine 
+     title = "Sparkling wine Le Grand Noir Brut Reserve Rose"
+     description = "France,rose,0.75l."
+     rating = "3.6"
+       />
+       <Wine 
+     title = "Wine"
+     description = "Italy,rose,0.5l."
+     rating = "3.6"
+       />
+       </div>
 }
-
-export default App;
