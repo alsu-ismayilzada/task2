@@ -1,7 +1,7 @@
 import Wine from "./Wine";
 
 export default function App() {
-  return <div><Win 
+  return <div><Wine
      title = "Sparkling wine Le Grand Noir Brut Reserve Rose"
      description = "France,rose,0.75l."
      rating = "3.6"
